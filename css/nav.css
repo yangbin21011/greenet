@@ -1,0 +1,233 @@
+.site-header {
+    position: relative;
+    background-color: #222222;
+}
+
+.wraper {
+    width: 100%;
+    max-width: 1227px;
+    margin: 0 auto;
+}
+
+.site-header .wraper {
+    height: 56px;
+    line-height: 56px;
+    padding: 12px 0;
+}
+
+.header-left {
+    font-size: 0px;
+}
+
+.header-left * {
+    font-size: 14px;
+}
+
+.header-left h1 {
+    display: inline-block;
+    width: 138px;
+    height: 60px;
+    background: white url(../images/logo.jpg);
+    background-size: 138px 60px;
+    text-indent: -9999px;
+}
+.header-left .glogo{
+    height: 60px;
+    display: inline-block;
+}
+
+.site-header .header-left, .site-header .header-middle, .site-header .header-right {
+    float: left;
+}
+
+.site-header .header-left {
+    width: 138px;
+    height: 56px;
+}
+
+.site-header .header-menu {
+    font-size: 0px;
+    height: 58px;
+    margin-top: 9px;
+}
+.header-menu a{
+    display: inline-block;
+    height: 53px;
+    line-height: 40px;
+}
+.navCur {
+    /*background-image: url(../images/NavBg.gif);*/
+    /*background-repeat: no-repeat;*/
+    /*background-position: center bottom;*/
+}
+
+.header-menu {
+    color: #fff;
+}
+
+.header-menu .content {
+    height: 0px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+    background: #fff;
+    overflow: hidden;
+    /*border-top: 1px solid #e0e0e0;*/
+    transition: all .3s .1s;
+}
+
+.header-menu > li:hover .content {
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(176, 176, 176, 0.3);
+    color: #000;
+}
+
+.header-menu > li:hover {
+    color: #FFFF00;
+    background-image:;
+}
+
+.header-menu .goods-list {
+    margin-top: 40px;
+    font-size: 0px
+}
+
+.header-menu .goods-list img {
+    max-width: 160px;
+    width: 100%;
+    margin: 0 auto;
+    border: 0;
+}
+
+.header-menu .goods-list .name {
+    margin-top: 18px;
+}
+
+.header-menu .goods-list .price {
+    color: #FF6700;
+}
+
+.header-menu .goods-list .item {
+    display: inline-block;
+    width: 16.3%;
+    min-width: 160px;
+    border-left: solid #ccc 1px;
+    text-align: center;
+    font-size: 12px;
+    line-height: 1.5;
+    height: 100px;
+}
+
+.header-menu .goods-list .item:first-child {
+    border-left: none;
+}
+
+.site-header .header-menu > li {
+    display: inline-block;
+    padding: 0px 19px;
+    font-size: 16px;
+
+    /*height: 50%;*/
+}
+.site-header .header-menu > li:hover {
+    border-bottom: 4px solid #009B1D;
+}
+
+.site-header .header-right {
+    float: right;
+    width: 300px;
+    height: 40px;
+    font-size: 0px;
+    text-indent: left;
+    position: relative;
+}
+
+.header-right > * {
+    height: 50px;
+    display: inline-block;
+    font-size: 12px;
+    vertical-align: middle;
+}
+
+.header-right .search {
+    width: 70%;
+    height: 30px;
+    border: none;
+    text-indent: 10px;
+    vertical-align: middle;
+    outline: none;
+    border: solid #ccc 1px;
+}
+
+.header-right .btn {
+    width: 60px;
+    /*border: none;*/
+    border: solid #ccc 1px;
+    height: 32px;
+    border-left: none;
+    color: white;
+    background: transparent;
+}
+
+.header-right ul {
+    width: 70%;
+    height: auto;
+    position: absolute;
+    left: 0;
+    top: 100%;
+    z-index: 2;
+    margin-top: -2px;
+    border: solid #ccc 1px;
+    border-top: none;
+    overflow: hidden;
+    border-bottom: none;
+}
+
+.header-right ul li {
+    cursor: pointer;
+    padding: 0px 10px;
+    background: #fff;
+    opacity: 0;
+    height: 0px;
+    line-height: 30px;
+    transition: all .5s;
+    position: relative;
+}
+
+.header-right ul li span {
+    position: absolute;
+    right: 10px;
+}
+
+.header-right ul li:hover {
+    background: #eee;
+}
+
+.header-right .search:focus {
+    /*border-color: #FF6700;*/
+}
+
+.header-right .search:focus + * {
+    /*border-color: #ff6700;*/
+}
+
+.header-right .search:focus ~ ul {
+    /*border-color: #ff6700;*/
+    /*border-bottom: solid #ff6700 1px;*/
+    display: inline-block;
+}
+
+.header-right .search:focus ~ ul li {
+    height: 30px;
+    opacity: 1;
+}
+.header-right .search:focus ~ ul li a {
+    height: 30px;
+    width: 210px;
+    opacity: 1;
+}
+
+.header-right .search:focus {
+}

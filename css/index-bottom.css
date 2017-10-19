@@ -1,0 +1,39 @@
+.bottom-cwh{
+    width: 100%;
+    padding: 20px 0;
+    background-color: #272a2c;
+    height: 107px;
+    margin-top: 50px;
+}
+.bottom-in-cwh{
+    padding:15px 0 10px;
+    width:840px;
+    height: 82px;
+    margin:0 auto;
+
+}
+.bottom-in-cwh span {
+    float: left;
+}
+.bottom-in-wen-cwh{
+    padding:0 15px;
+}
+.bottom-in-nav-cwh{
+    font-size: 12px;
+    color: #fff;
+    margin-top:-8px;
+    line-height:24px;
+}
+.bottom-in-nav-cwh a {
+    color: #fff;
+    padding-right:4px;
+}
+.bottom-in-nav-cwh a:hover{
+    text-decoration: underline;
+}
+.bottom-in-xkz-cwh{
+    margin-top:10px;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    font-size:12px;
+}
