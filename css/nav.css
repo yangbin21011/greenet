@@ -41,7 +41,8 @@
 }
 
 .site-header .header-left {
-    width: 138px;
+    /*width: 138px;*/
+    width: 12%;
     height: 56px;
 }
 
@@ -137,7 +138,8 @@
 
 .site-header .header-right {
     float: right;
-    width: 300px;
+    width: 23%;
+    /*width: 300px;*/
     height: 40px;
     font-size: 0px;
     text-indent: left;
